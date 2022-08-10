@@ -1,0 +1,6 @@
+<ul>
+  {{
+    menu.name
+  }}
+  <app-child *ngFor="let menu of menu.child" [menu]="menu"></app-child>
+</ul>
